@@ -1,0 +1,90 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  // padding: 50px;
+
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    .search {
+      width: 100%;
+      box-sizing: border-box;
+
+      input {
+        width: 95%;
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+        font-size:16px;
+      }
+    }
+
+    .weather-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:center;
+      padding: 20px 0;
+      width: 100%;
+
+      div {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 10px 0;
+        font-size: 20px;
+
+        i {
+          font-size: 30px;
+          margin: 0 10px 0 0;
+        }
+      }
+
+      .location {
+
+        i{
+          color: rgb(9, 11, 90);
+        }
+      }
+
+      .temp {
+
+        i{
+          color: rgb(231, 217, 20);
+        }
+      }
+
+      .weather {
+
+        i{
+          color: rgb(11, 170, 243);
+        }
+      }
+
+      .wind {
+
+        i{
+          color: rgb(96, 190, 233);
+        }
+      }
+
+    }
+
+
+  }
+
+}
