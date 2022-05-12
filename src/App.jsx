@@ -92,7 +92,7 @@ function App() {
               <Daily 
                 city={weather.name}
                 country={weather.sys.country}
-                temp={Math.round(weather.main.temp)}
+                temp={Math.round(weather.main.temp)/10}
                 weather={weather.weather[0].main}
                 wind={weather.wind.speed}
               />
